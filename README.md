@@ -22,6 +22,9 @@ Extend the config and add your own rules and settings. This package only adds se
 // .eslintrc.js
 module.exports = {
   extends: ["eslint-config-parts"],
+  parserOptions: {
+    project: "./tsconfig.json",
+  },
   rules: {
     // your custom rules
   },
