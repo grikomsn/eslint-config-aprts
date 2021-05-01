@@ -1,6 +1,6 @@
 # eslint-config-parts
 
-ESLint configuration extending Prettier, Airbnb, React, and Typescript (also import resolvers) 🤠
+ESLint configuration extending **P**rettier, **A**irbnb, **R**eact, and **T**ype**S**cript 🤠
 
 ## Installation
 
@@ -16,14 +16,14 @@ npx install-peerdeps --dev --yarn eslint-config-parts
 
 ## Usage
 
-Extend the config and add your own rules and settings. This package only adds settings for the import extensions/parsers/resolver ([see config](./.eslintrc.js)).
+[There are no custom configs and rules.](./.eslintrc.js) Extend the config and add your own, and be sure to add `parserOptions` pointing to your `tsconfig` file.
 
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: ["eslint-config-parts"],
+  extends: ['eslint-config-parts'],
   parserOptions: {
-    project: "./tsconfig.json",
+    project: './tsconfig.json',
   },
   rules: {
     // your custom rules
@@ -43,4 +43,4 @@ module.exports = {
 
 ## License
 
-[MIT License, Copyright (c) 2020 Griko Nibras](./LICENSE)
+[MIT License, Copyright (c) 2021 Griko Nibras](./LICENSE)
