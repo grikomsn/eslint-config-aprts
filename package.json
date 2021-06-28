@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-parts",
   "description": "ESLint configuration extending Prettier, Airbnb, React, and TypeScript 🤠",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "repository": "git@github.com:grikomsn/eslint-config-parts.git",
   "author": "Griko Nibras <git@griko.id>",
   "main": "index.js",
