@@ -6,6 +6,7 @@
   "author": "Griko Nibras <git@griko.id>",
   "main": "index.js",
   "scripts": {
+    "deduplicate": "npx yarn-deduplicate && yarn",
     "format": "prettier --write \"*.{js,json,md}\"",
     "lint": "eslint --config index.js --cache *.js",
     "type-check": "tsc --noEmit",
